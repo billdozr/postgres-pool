@@ -1,8 +1,5 @@
 (ns net.briancarper.postgres-pool
-  (:import [clojure.lang RT]
-           [javax.sql DataSource]
-           [org.apache.commons.pool ObjectPool]
-           [org.apache.commons.pool.impl GenericObjectPool]
+  (:import [org.apache.commons.pool.impl GenericObjectPool]
            [org.apache.commons.dbcp
             PoolingDataSource
             PoolableConnectionFactory

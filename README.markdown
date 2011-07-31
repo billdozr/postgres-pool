@@ -13,7 +13,7 @@ Set up a connection pool for a Postgres server.
 
 Available at Clojars, add this to `project.clj` and use `lein`:
 
-    [postgres-pool "1.1.0"]
+    [postgres-pool "1.2.0"]
 
 ## License
 
